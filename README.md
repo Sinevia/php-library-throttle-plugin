@@ -1,4 +1,4 @@
-#SINEVIA PLUGIN THROTTLE
+# PLUGIN THROTTLE #
 
 A plugin that throttles access to a resource (i.e. login form).
 Throttling is based on number of attempts before locking down the access
@@ -8,7 +8,7 @@ SQL backend (MySQL or SQLite) is used for keeping track attempts
 to access the resource.
 
 
-# Installation #
+## Installation ##
 
 ```
 #!json
