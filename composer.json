@@ -1,0 +1,39 @@
+{
+    "name": "sinevia/phplibrary/plugin-throttle",
+    "description": "Plugin for throttling access to resource.",
+    "version": "1.0.1",
+    "type": "library",
+    "keywords": ["throttle", "plugin", "sinevia"],    
+    "homepage": "https://github.com/sinevia/php-library-throttle-plugin",
+    "license": "commercial",
+    "authors": [{
+            "name": "Sinevia Ltd",
+            "email": "info@sinevia.com",
+            "homepage": "http://sinevia.com",
+            "role": "Commercial Decission Maker"
+        }, {
+            "name": "Milan Lesichkov",
+            "email": "lesichkovm@gmail.com",
+            "homepage": "http://lesichkov.co.uk",
+            "role": "Lead Developer"
+        }]
+    ],
+    "require": {
+        "php": ">=5.4",
+        "sinevia/phplibrary/sqldb": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sinevia\\Plugins\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    },
+    "replace": {
+    }
+}
