@@ -20,7 +20,7 @@
     ],
     "require": {
         "php": ">=5.4",
-        "sinevia/phplibrary/sqldb": "dev-master"
+        "sinevia/phplibrary/sqldb": "3.*"
     },
     "require-dev": {
         "phpunit/phpunit": "*"
