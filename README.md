@@ -10,6 +10,13 @@ to access the resource.
 
 ## Installation ##
 
+1) Via Composer (preferred)
+
+```
+composer require sinevia/php-library-throttle-plugin
+```
+
+2) Manually
 ```
 #!json
 
@@ -21,7 +28,7 @@ to access the resource.
     ],
     "require": {
         "php": ">=5.5.9",
-        "sinevia/phplibrary/plugin-throttle": "dev-master"
+        "sinevia/php-library-throttle-plugin": "dev-master"
     },
 ```
 
