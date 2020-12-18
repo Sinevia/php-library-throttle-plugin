@@ -1,11 +1,10 @@
 {
     "name": "sinevia/php-library-throttle-plugin",
     "description": "Plugin for throttling access to resource.",
-    "version": "1.0.2",
     "type": "library",
     "keywords": ["throttle", "plugin", "sinevia"],    
     "homepage": "https://github.com/sinevia/php-library-throttle-plugin",
-    "license": "commercial",
+    "license": "proprietary",
     "authors": [
         {
             "name": "Sinevia Ltd",
