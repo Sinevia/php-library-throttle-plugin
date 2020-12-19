@@ -31,3 +31,19 @@ composer require sinevia/php-library-throttle-plugin
 ```
 
 # How to Use? #
+
+```
+\Sinevia\Plugins\ThrottlePlugin::configure([
+   'pdo' => \DB::getPdo()
+]);
+
+$userIp = \Sinevia\Plugins\ThrottlePlugin::getCurrentUserIp();
+
+$mayAttempt = \Sinevia\Plugins\ThrottlePlugin::mayAttempt('LoginForm', $userIp, 6, 10 * 60); // 6 attempts in 10 minutes
+
+if ($mayAttempt == false) {
+   $message = 'You have passed the maximum allowed authentication attempts.';
+   $message .= ' Please, check your password and try again in 10 minutes.';
+   return redirect()->back()->withErrors($message)->withInput();
+}
+```
