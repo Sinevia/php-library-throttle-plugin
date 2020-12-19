@@ -12,7 +12,7 @@ to access the resource.
 
 1) Via Composer (preferred)
 
-```
+```bash
 composer require sinevia/php-library-throttle-plugin
 ```
 
@@ -32,7 +32,7 @@ composer require sinevia/php-library-throttle-plugin
 
 # How to Use? #
 
-```
+```php
 \Sinevia\Plugins\ThrottlePlugin::configure([
    'pdo' => \DB::getPdo()
 ]);
