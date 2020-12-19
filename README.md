@@ -17,9 +17,7 @@ composer require sinevia/php-library-throttle-plugin
 ```
 
 2) Manually
-```
-#!json
-
+```json
    "repositories": [
         {
             "type": "vcs",
